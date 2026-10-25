@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Les identifiants OAuth sont fournis par l'environnement : seul .env.example est versionné.
+.env
+.env.*
+!.env.example
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.vs/
+*.log
+.DS_Store
+Thumbs.db
